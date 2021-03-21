@@ -1,3 +1,4 @@
+[image1]:https://github.com/Thedatababbler/udcityRL_proj3_multi_agent/blob/main/score.PNG
 ### Learning Algorithm
 For this project, we encounter a new challenging problems in Reinforcement Learning, that is how to train multiple agents to coportate or compete in the same game. Though we've learned
 many techniques and models by far, all of them are designed for a single agent learning tasks. So, I decide to choose MADDPG(Multi-Agent Deep Deterministic Policy Gradient) algorithm
@@ -35,3 +36,4 @@ quite important in training a MADDPG model. A different initial state may lead t
 for the training, so we can not decay the noise too fast. 
 
 Here is the resualt graph:
+![result][image1]
